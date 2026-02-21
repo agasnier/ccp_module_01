@@ -1,4 +1,4 @@
-NAME = BraiiiiiiinnnzzzZ
+NAME = Moar_brainz!
 
 CXX = c++
 CXXFLAGS = -Werror -Wall -Wextra -std=c++98 -g
