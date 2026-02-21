@@ -9,6 +9,8 @@ INCS_DIR = include
 
 SRCS =	$(SRCS_DIR)/main.cpp \
 		$(SRCS_DIR)/Zombie.cpp \
+		$(SRCS_DIR)/newZombie.cpp \
+		$(SRCS_DIR)/randomChump.cpp
 
 OBJS = $(SRCS:$(SRCS_DIR)/%.cpp=$(OBJS_DIR)/%.o)
 

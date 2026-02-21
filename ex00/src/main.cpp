@@ -6,7 +6,7 @@
 /*   By: algasnie <algasnie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/21 11:10:15 by algasnie          #+#    #+#             */
-/*   Updated: 2026/02/21 11:43:50 by algasnie         ###   ########.fr       */
+/*   Updated: 2026/02/21 15:23:50 by algasnie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,13 @@
 
 int main(void) {
 	
-	Zombie zombie1("test");
-	zombie1.announce();
+	randomChump("Stack");
+	
+	Zombie* heap = newZombie("Heap");
+	heap->announce();
+
+	delete heap;
+	
 
 	return (0);
 }

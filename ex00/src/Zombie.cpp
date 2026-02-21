@@ -6,7 +6,7 @@
 /*   By: algasnie <algasnie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/21 11:10:19 by algasnie          #+#    #+#             */
-/*   Updated: 2026/02/21 11:38:10 by algasnie         ###   ########.fr       */
+/*   Updated: 2026/02/21 15:23:30 by algasnie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Zombie::Zombie(std::string name) {
 }
 
 Zombie::~Zombie() {
-	std::cout << name << std::endl;
+	std::cout << name << " is dead" << std::endl;
 }
 
 void Zombie::announce(void) {
